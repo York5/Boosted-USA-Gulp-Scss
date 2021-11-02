@@ -1,0 +1,14 @@
+.mediaReference {
+  background-color: #000;
+  padding: 10px 0;
+  .mediaReference__content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .mediaReference__content_item {
+      padding: 10px 30px;
+    }
+  }
+}

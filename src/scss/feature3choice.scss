@@ -1,0 +1,101 @@
+.feature3choice-position {
+}
+.feature3choice {
+  .feature3choice__content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .feature3choice__content_item_wrapper {
+      width: 33.3333%;
+      height: 35vw;
+      overflow: hidden;
+      @media screen and (max-width: 768px) {
+        width: 300px;
+        height: 300px;
+      }
+    }
+    .feature3choice__content__item {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      cursor: pointer;
+
+      .feature3choice__content_item1_title {
+        font-size: 25px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        @media screen and (max-width: 768px) {
+          font-size: 18px;
+        }
+      }
+      .feature3choice__content_item1_subtitle {
+        font-size: 18px;
+        text-transform: uppercase;
+      }
+
+      // width: 480px;
+      // height: 480px;
+    }
+    .feature3choice__content_item1 {
+      position: relative;
+
+      &:before {
+        content: ' ';
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background: url(../img/feature3choice/3feature1.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        transition: 0.3s ease-in-out;
+        z-index: -1;
+      }
+      &:hover:before {
+        transform: scale(1.1);
+      }
+    }
+    .feature3choice__content_item2 {
+      position: relative;
+      &:before {
+        content: ' ';
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background: url(../img/feature3choice/3feature2.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        transition: 0.3s ease-in-out;
+        z-index: -1;
+      }
+      &:hover:before {
+        transform: scale(1.1);
+      }
+    }
+    .feature3choice__content_item3 {
+      position: relative;
+      &:before {
+        content: ' ';
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background: url(../img/feature3choice/3feature3.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        transition: 0.3s ease-in-out;
+        z-index: -1;
+      }
+      &:hover:before {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

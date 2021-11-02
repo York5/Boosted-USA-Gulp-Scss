@@ -1,0 +1,16 @@
+// ! FONTS
+// &display=swap  - Оптимизирует подгрузку шрифтов на сайте.
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular,300,400,500,700&display=swap');
+// ! =================================
+
+// ! DEFAULT FONT
+$fontFamily: 'Roboto', sans-serif;
+// ! =================================
+
+// ! VARIABLES
+$minWidth: 320px;
+$maxWidth: 1440px;
+$maxWidthContainer: 1180px;
+$accentOrange: #ff4a32;
+$accentSecondaryGrey: rgb(100, 100, 102);
+// ! ================================

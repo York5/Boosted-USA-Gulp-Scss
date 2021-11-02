@@ -1,0 +1,23 @@
+.videosBlock-position {
+  margin-top: 40px;
+}
+.videosBlock {
+  .videosBlock__content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .videosBlock__content__video {
+      padding: 10px;
+      width: 50%;
+      height: 315px;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        height: 60vw;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

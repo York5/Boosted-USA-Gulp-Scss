@@ -1,0 +1,35 @@
+.footer {
+  padding: 60px 10px;
+  ._container {
+    .footer__content {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      @media screen and (max-width: 600px) {
+        flex-direction: column;
+        align-items: center;
+      }
+      .footer__content__item {
+        max-width: 33.33333%;
+        @media screen and (max-width: 600px) {
+          text-align: center;
+          max-width: 200px;
+          margin: 20px 0;
+        }
+        .footer__logo {
+        }
+        .footer__content__item_title {
+          font-size: 19px;
+          font-weight: bold;
+          margin-bottom: 15px;
+        }
+        .footer__content__item_list {
+          font-size: 14px;
+        }
+        .footer__content__item_text {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}

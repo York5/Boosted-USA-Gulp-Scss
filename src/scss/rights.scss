@@ -1,0 +1,20 @@
+.rights-position {
+  padding: 0 10px 10px;
+}
+.rights {
+  .rights__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .rights__content_text {
+      margin: 10px 0;
+    }
+    .rights__content__icons {
+      display: flex;
+      margin: 10px -5px;
+      .rights__content__icons_item {
+        padding: 0 5px;
+      }
+    }
+  }
+}

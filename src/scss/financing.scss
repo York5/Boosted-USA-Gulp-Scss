@@ -1,0 +1,16 @@
+.financing {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .financing__content {
+    .financing__content_text {
+      letter-spacing: 0.1em;
+      margin: 0 auto;
+    }
+  }
+}
